@@ -279,9 +279,31 @@ header .main ul li a.active{
 	.transaction{
 		padding: 0.5rem 0;
 	}
+	.trans-data{
+		padding: 0.2rem;
+	}
 	.trans-data,.trans-report{
 		float: none;
 		text-align: center;
+	}
+	.trans-data span{
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	.trans-data .trans-money{
+		letter-spacing: inherit;
+		padding: 0;
+		margin: 0;
+		background: transparent;
+		font-size: 1.6rem;
+		border-radius: 0;
+		color: orange;
+		box-shadow: none;
+	}
+	.trans-report a{
+		line-height: 1rem;
+		padding: 0.5rem;
+		font-size: 1.2rem;
 	}
 }
 /*滚动广告*/
